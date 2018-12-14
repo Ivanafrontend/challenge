@@ -39,8 +39,8 @@ nav {
 .menu {
     list-style-type: none;
     margin: 0;
-    padding: 12px;
-    width: 98%;
+    padding: 18px;
+    width: 97%;
     background-color:#b70000;
     float: left;
    
@@ -65,17 +65,17 @@ nav {
     padding: 15px 15px 16px 15px;
     margin-top: 10px;
     color: beige;
-    transition: 0.1s all ease; 
+   
 }
 .in {
     position: absolute;
     top: 17px;
-    right: 25px;
+    right: 30px;
 
     
 }
 .in input {
-    padding: 2px;
+    padding: 4px;
    float: left;
    color:#b70000;
    margin-top: -1px; 
@@ -84,8 +84,12 @@ nav {
 
 
 .fa, .fas {
-    font-weight: 900;
+    
     color: white;
+    background: #7f8c8d;
+    padding: 4px;
+    border: 2px solid black;
+    border-top:2px darkcyan; 
 }
   
   /* Change the link color on hover */
@@ -93,7 +97,7 @@ nav {
     background-color: #7f8c8d;
     color: white;
     width: 10px;
-    height: 10px;
+    height: 13px;
   }
   /*golema slik*/
   .imgb img {
